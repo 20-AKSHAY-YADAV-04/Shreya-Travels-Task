@@ -1,0 +1,268 @@
+/* 
+============================================================
+My Custom variable
+============================================================
+*/
+:root {
+  /* Google Font Family Variables */
+  --first-font-family: "Inter", sans-serif;
+  --second-font-family: "Kavoon", cursive;
+  --third-font-family: "Montserrat", sans-serif;
+  --fourth-font-family: "Rubik", sans-serif;
+
+  /* Font Size Variables */
+  --first-font-size-12: 12px;
+  --second-font-size-14: 14px;
+  --third-font-size-16: 16px;
+  --fourth-font-size-20: 20px;
+  --fifth-font-size-32: 32px;
+
+  /* Line spacing Variables */
+  --first-line-spacing-14: 14px;
+  --second-line-spacing-15: 15px;
+  --third-line-spacing-16: 16px;
+  --fourth-line-spacing-17: 17px;
+  --fifth-line-spacing-19: 19px;
+  --sixth-line-spacing-21: 21px;
+  --seventh-line-spacing-24: 24px;
+  --eighth-line-spacing-27: 27px;
+  --nineth-line-spacing-39: 39px;
+
+  /* Font weight Variables */
+  --first-font-weight-800: 800px;
+  --second-font-weight-bold: bold;
+  --third-font-weight-medium: medium;
+  --fourth-font-weight-normal: normal;
+
+  /* Font style Variables */
+  --first-font-style-normal: normal;
+
+  /* Charecter Spacing Variables */
+  --first-character-spacing-0: 0px;
+}
+
+div > .menuContent > li a {
+  font-size: 19px;
+  font-family: var(--fourth-font-family);
+  font-weight: var(--third-font-weight-medium);
+  color: #ed5219 !important;
+  text-transform: uppercase;
+  transition: 0.3s linear;
+  border-radius: 10px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+div > .menuContent > li a:hover {
+  background: #fff;
+  color: #2f3640;
+  transform: scale(1.1);
+}
+
+div > ul > li > a i:hover {
+  color: #ed5219 !important;
+  transform: scale(1.1);
+}
+
+div > ul > li > a i {
+  font-size: 25px;
+  transition: 0.3s linear;
+  border-radius: 10px;
+}
+
+.btnPrevious {
+  background-color: rgb(146, 130, 130);
+  border-radius: 30%;
+  padding: 4px 8px;
+  color: black;
+  font-size: 20px;
+}
+
+.btnPrevious:hover {
+  background-color: white;
+}
+
+.btnNext {
+  background-color: rgb(146, 130, 130);
+  border-radius: 30%;
+  padding: 4px 8px;
+  color: black;
+  font-size: 20px;
+}
+
+.btnNext:hover {
+  background-color: white;
+}
+
+/* .MYNavbar
+{
+    background: #d93030 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 12px #0000001F;
+    opacity: 1;
+} */
+
+.navbar-scroll {
+  background: #57463a !important;
+  transition: all 0.5s ease-in-out;
+  animation: scroll 0.6s 1;
+  position: fixed;
+  font-weight: var(--first-font-weight-800);
+  z-index: 101;
+  opacity: 0.9;
+  /* border-radius: 5px; */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.item {
+  width: 100%;
+  height: auto;
+}
+
+.imgfluid {
+  margin-right: 30px;
+  width: 520px;
+  height: auto;
+}
+
+.countryName {
+  width: 200px;
+  text-align: center;
+  background: #fff;
+  font-size: var(--fifth-font-size-32);
+  font-family: var(--third-font-family);
+  font-weight: var(--first-font-weight-800);
+  border: 2px solid white;
+  position: relative;
+  top: -55px;
+  left: 26px;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.FourButtons {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.PopupImage {
+  width: 210px;
+  height: auto;
+}
+
+.PremiumPackage {
+  font-size: 50px;
+  font-family: var(--fourth-font-family);
+  padding: 10px 210px;
+}
+
+.PremiumDesc {
+  font-size: 16px;
+  font-family: var(--fourth-font-family);
+  width: 720px;
+  letter-spacing: 2px;
+  margin: auto;
+}
+
+.BookTrip {
+  font-size: 16px;
+  font-family: var(--fourth-font-family);
+  font-variant: normal;
+  font-style: var(--first-font-style-normal);
+  letter-spacing: 4px;
+}
+
+.PackagePremiumDesc {
+  padding: 90px 0;
+}
+
+.ORTCompany {
+  color: #b4b4b4;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  background: #3d3d3d;
+  padding: 30px 0 !important;
+  text-align: center;
+}
+
+.GoogleMAp {
+  background: #2f3640;
+  padding: 70px 0;
+}
+
+.DetailsForm > form input {
+  height: 50px;
+  background: rgba(69, 69, 69, 0.65);
+  padding: 5px 20px;
+  font-family: var(--fourth-font-family);
+  font-style: italic;
+  border-radius: 10px;
+  font-size: var(--second-font-size-14);
+}
+
+.DetailsForm > form textarea {
+  background: rgba(69, 69, 69, 0.65);
+  height: 150px;
+  padding: 5px 20px;
+  font-family: var(--fourth-font-family);
+  font-style: italic;
+  border-radius: 10px;
+  font-size: var(--second-font-size-14);
+
+}
+
+.MIcons {
+  padding: 90px 100px;
+}
+
+.AboutShreya {
+  width: 515px;
+}
+
+.btnAll
+{
+  color: #505050;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 5px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: var(--fourth-font-family);
+}
+
+.RotateImage{
+  transform: rotate( -180deg ); 
+}
+
+.MYImg
+{
+  width: 180px;
+  height: 80px;
+}
+
+.btnSubmit
+{
+  color: #505050;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 5px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: var(--fourth-font-family);
+}
