@@ -269,48 +269,49 @@
     </div>
 
     <footer class="bg-dark text-center">
-        <div class="container-fluid py-3 pt-2">
-            <div class="d-flex footerContent">
-                <div class="GoogleMAp"> 
-                    <div class="ratio ratio-16x9">
-                        <iframe src="assets/images/himachal_home.jpg" title="Google Map" allowfullscreen></iframe>
+        <div class="container py-3 pt-2">
+            <div class="row footerContent">
+                <div class="col-4">
+                    <div class="GoogleMAp"> 
+                        <img src="assets/images/StaticMapService.GetMapImage" alt="">
+                        <img src="assets/images/" alt="">
+                        <!-- <iframe src="assets/images/StaticMapService.GetMapImage" title="Google Map" allowfullscreen></iframe> -->
                     </div>
                 </div>
-
-                <div class="">
-                    <div class="card">
-                        <div class="card-body">
-
-                        </div>
+                <div class="col-4">
+                    <div class="">
+                        
                     </div>
                 </div>
-        
-                <div class="DetailsForm p-4">
-                    <form action="">
-                        <div class="mb-3">
-                            <input type="text" class="" id="NameInput" placeholder="Name" />
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="" id="EmailInput" placeholder="Email Address" />
-                        </div>
-                        <div class="mb-3">
-                            <input type="text" class="" id="SubjectInput" placeholder="Subject" />
-                        </div>
-                        <div class="">
-                            <textarea class="" placeholder="Details" id="DetailsTextarea"></textarea>
-                        </div>
-                        <div class="mb-3">
-                            <button type="submit" class="text-uppercase rounded-pill btnSubmit" id="SubjectInput">Contact Now</button>
-                        </div>
-                    </form>
-                </div>
+                <div class="col-4">
+                    <div class="DetailsForm p-4">
+                        <form action="">
+                            <div class="mb-3">
+                                <input type="text" class="" id="NameInput" placeholder="Name" />
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="" id="EmailInput" placeholder="Email Address" />
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="" id="SubjectInput" placeholder="Subject" />
+                            </div>
+                            <div class="">
+                                <textarea class="" placeholder="Details" id="DetailsTextarea"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" class="text-uppercase rounded-pill btnSubmit" id="SubjectInput">Contact Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div> 
             </div>
-        </div>      
+        </div>  
+
         <div class="text-center p-0 pt-3 pb-2 ORTCompany">
-          Shreya Tours & Travels - Copyright 2022. Powered by
-          <a class="text-dark text-decoration-none ORTCompanyLink" target="_blank" href="https://onerooftech.com/">
-            <span class="text-danger OneRoofTech"> OneRoof Technologies LLP</span>
-          </a>
+            Shreya Tours & Travels - Copyright 2022. Powered by
+            <a class="text-dark text-decoration-none ORTCompanyLink" target="_blank" href="https://onerooftech.com/">
+                <span class="text-danger OneRoofTech"> OneRoof Technologies LLP</span>
+            </a>
         </div>
       </footer>
   
@@ -323,25 +324,5 @@
         <script src="assets/js/JQuery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script src="assets/js/custom.js"></script>
-        <script>
-
-            $(".owl-carousel").owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                responsiveClass:true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 3
-                    },
-                    1000: {
-                        items: 5
-                    }
-                },
-            });
-        </script>   
 </body>
 </html>

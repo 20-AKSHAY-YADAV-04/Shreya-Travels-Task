@@ -197,10 +197,10 @@ div > ul > li > a i {
   text-align: center;
 }
 
-.GoogleMAp {
+/* .GoogleMAp {
   background: #2f3640;
   padding: 70px 0;
-}
+} */
 
 .DetailsForm > form input {
   height: 50px;
@@ -208,7 +208,7 @@ div > ul > li > a i {
   padding: 5px 20px;
   font-family: var(--fourth-font-family);
   font-style: italic;
-  border-radius: 10px;
+  border-radius: 4px;
   font-size: var(--second-font-size-14);
 }
 
@@ -218,7 +218,7 @@ div > ul > li > a i {
   padding: 5px 20px;
   font-family: var(--fourth-font-family);
   font-style: italic;
-  border-radius: 10px;
+  border-radius: 4px;
   font-size: var(--second-font-size-14);
 
 }
@@ -256,13 +256,25 @@ div > ul > li > a i {
 
 .btnSubmit
 {
-  color: #505050;
+  color: #fff;
   display: inline-block;
   font-size: 16px;
   line-height: 20px;
   margin: 0 5px;
   padding: 10px 30px;
   text-transform: uppercase;
+  border:  2px solid #b07645;
   cursor: pointer;
+  background: #b07645;
   font-family: var(--fourth-font-family);
+}
+
+.footerContent
+{
+  background-image: url('/assets/images/map.png') !important;
+  background-attachment:inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /* padding: 70px 10px; */
 }
